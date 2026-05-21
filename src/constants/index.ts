@@ -158,7 +158,7 @@ export const PROJECTS = [
     ],
     image: project1,
     source_code_link: "https://github.com/builtbysardor/nexus-pro",
-    live_site_link: "https://github.com/builtbysardor/nexus-pro",
+    live_site_link: "https://nexus-pro-pi.vercel.app",
   },
   {
     name: "SentinelLog v2",
@@ -171,7 +171,7 @@ export const PROJECTS = [
     ],
     image: project2,
     source_code_link: "https://github.com/builtbysardor/sentinel-soc",
-    live_site_link: "https://github.com/builtbysardor/sentinel-soc",
+    live_site_link: "https://sentinel-soc-tau.vercel.app",
   },
   {
     name: "InfraWatch",
@@ -197,7 +197,7 @@ export const PROJECTS = [
     ],
     image: project4,
     source_code_link: "https://github.com/builtbysardor",
-    live_site_link: "https://github.com/builtbysardor",
+    live_site_link: "https://phishing-detector-one-gold.vercel.app",
   },
   {
     name: "Antivirus Pro",
