@@ -1,4 +1,3 @@
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { SERVICES } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -8,7 +7,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 type ServiceCardProps = { index: number; title: string; icon: string };
 
 const ServiceCard = ({ index, title, icon }: ServiceCardProps) => (
-  <Tilt options={{ max: 45, scale: 1, speed: 450 }} className="xs:w-[250px] w-full">
+  <div className="xs:w-[250px] w-full transition-transform duration-300 hover:scale-105 hover:-translate-y-2">
     <motion.div
       variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
@@ -18,7 +17,7 @@ const ServiceCard = ({ index, title, icon }: ServiceCardProps) => (
         <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
       </div>
     </motion.div>
-  </Tilt>
+  </div>
 );
 
 export const About = () => (
