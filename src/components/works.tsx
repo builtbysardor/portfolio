@@ -1,4 +1,3 @@
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { github, preview } from "../assets";
@@ -23,14 +22,7 @@ const ProjectCard = ({
   live_site_link,
 }: ProjectCardProps) => (
   <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-    <Tilt
-      options={{
-        max: 45,
-        scale: 1,
-        speed: 450,
-      }}
-      className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-    >
+    <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full transition-transform duration-300 hover:scale-105 hover:-translate-y-2">
       <div className="relative w-full h-[230px]">
         {/* Work image */}
         <img
@@ -84,7 +76,7 @@ const ProjectCard = ({
           </p>
         ))}
       </div>
-    </Tilt>
+    </div>
   </motion.div>
 );
 
