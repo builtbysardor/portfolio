@@ -1,66 +1,61 @@
-<a name="readme-top"></a>
-
 <div align="center">
 
-# 🚀 Sardor — 3D Portfolio
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Sardor%20Buriyev&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=3D%20Portfolio%20%E2%80%94%20Full-Stack%20%C2%B7%20DevOps%20%C2%B7%20Cybersecurity&descAlignY=58&descSize=16" width="100%"/>
 
-### Full-Stack · DevOps · Cybersecurity · Samarkand, Uzbekistan 🇺🇿
-
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-915EFF?style=for-the-badge)](https://builtbysardor.github.io/Portfolio/)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-915EFF?style=for-the-badge)](https://portfolio-mocha-seven-22.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-builtbysardor-181717?style=for-the-badge&logo=github)](https://github.com/builtbysardor)
-[![Made with React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org)
-[![Three.js](https://img.shields.io/badge/Three.js-3D-black?style=for-the-badge&logo=three.js)](https://threejs.org)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
+[![Three.js](https://img.shields.io/badge/Three.js-3D-black?style=for-the-badge&logo=three.js)](https://threejs.org)
 [![Vite](https://img.shields.io/badge/Vite-build-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev)
 
 </div>
 
 ---
 
-## 🎬 Demo Video
-
-> **Watch the full portfolio walkthrough:**
-
-[![Portfolio Demo Video](https://img.shields.io/badge/▶_Watch_Demo-Live_Site-FF0000?style=for-the-badge&logo=googlechrome)](https://portfolio-mocha-seven-22.vercel.app)
-
-> 📹 *To add a screen recording: upload a GIF to `.github/images/demo.gif` and replace the badge above with:*
-> `![Demo](https://raw.githubusercontent.com/builtbysardor/Portfolio/main/.github/images/demo.gif)`
-
----
-
 ## 📸 Screenshots
 
-### 🏠 Hero — Interactive 3D Computer Model
-![Hero Section](.github/images/img_main.jpg)
+<div align="center">
+  <img src=".github/images/img_main.jpg" alt="Hero Section" width="100%" style="border-radius: 10px; margin-bottom: 8px;"/>
+</div>
 
-> 💡 *Add more screenshots: upload images to `.github/images/` folder and embed them here.*
+<div align="center">
+  <img src=".github/images/img1.png" alt="Screenshot 1" width="48%" style="border-radius: 8px; margin: 4px;"/>
+  <img src=".github/images/img2.png" alt="Screenshot 2" width="48%" style="border-radius: 8px; margin: 4px;"/>
+  <img src=".github/images/img3.png" alt="Screenshot 3" width="48%" style="border-radius: 8px; margin: 4px;"/>
+  <img src=".github/images/img4.png" alt="Screenshot 4" width="48%" style="border-radius: 8px; margin: 4px;"/>
+</div>
+
+<div align="center">
+  <img src=".github/images/img_about.jpg" alt="About Section" width="48%" style="border-radius: 8px; margin: 4px;"/>
+  <img src=".github/images/img_projects.jpg" alt="Projects Section" width="48%" style="border-radius: 8px; margin: 4px;"/>
+</div>
 
 ---
 
 ## ✨ Features
 
-- 🖥️ **Interactive 3D computer model** — powered by Three.js & React Three Fiber
-- 🌌 **Animated starfield background** — particle effects that respond to scroll
-- 📜 **Vertical timeline** — work experience with smooth scroll animations
-- 🎯 **Tilt effect cards** — projects & services with hover 3D tilt
-- ⌨️ **Framer Motion animations** — throughout every section
-- 📡 **EmailJS contact form** — sends emails directly from the browser
-- 🌐 **3D Earth model** — on the contact section
-- ⚡ **Vite** — blazing fast build & HMR
+- 🖥️ **Interactive 3D computer model** — Three.js & React Three Fiber
+- 🌌 **Animated starfield background** — particle effects on scroll
+- 📜 **Vertical timeline** — work experience with smooth animations
+- 🎯 **Tilt effect cards** — projects with hover 3D tilt
+- ⌨️ **Framer Motion animations** — smooth transitions throughout
+- 📡 **EmailJS contact form** — direct email from the browser
+- 🌐 **3D Earth model** — interactive globe on contact section
 - 📱 **Fully responsive** — mobile, tablet, desktop
 
 ---
 
-## 🗂️ Projects Featured
+## 🗂️ My Projects
 
-| # | Project | Stack | Description |
-|---|---------|-------|-------------|
-| 1 | **Nexus Pro** | Next.js · WebSockets · TypeScript | Real-time infrastructure monitoring dashboard |
-| 2 | **SentinelLog v2** | FastAPI · Python · WebSockets | SOC dashboard — detects SSH brute-force, SQLi, DDoS |
-| 3 | **InfraWatch** | Prometheus · Grafana · Docker | One-command full observability monitoring stack |
-| 4 | **PhishGuard AI** | Python · FastAPI · Naive Bayes ML | 100% local phishing email detector |
-| 5 | **Antivirus Pro** | Python · VirusTotal API · Radar | Enterprise cybersecurity dashboard |
-| 6 | **CryptaVault** | Vanilla JS · Canvas API | Interactive Caesar & Vigenère cipher tool |
+| Project | Stack | Description |
+|---------|-------|-------------|
+| **[Nexus Pro](https://github.com/builtbysardor/nexus-pro)** | Next.js · TypeScript · WebSockets | Real-time infrastructure monitoring dashboard |
+| **[InfraWatch](https://github.com/builtbysardor/infrawatch)** | Docker · Prometheus · Grafana | One-command full observability stack |
+| **[Sentinel SOC](https://github.com/builtbysardor/sentinel-soc)** | FastAPI · Python · WebSockets | Real-time threat detection dashboard |
+| **[Antivirus Pro](https://github.com/builtbysardor/antivirus-pro)** | Rust · Python · Next.js | Multi-engine cybersecurity platform |
+| **[Phishing Detector](https://github.com/builtbysardor/phishing-detector)** | Python · scikit-learn | ML-powered phishing email analyzer |
+| **[Cipher Tool](https://github.com/builtbysardor/cipher-tool)** | JavaScript | Classic cipher encryption/decryption |
 
 ---
 
@@ -72,66 +67,18 @@
 | **3D / Animation** | Three.js, React Three Fiber, Drei, Framer Motion |
 | **Build** | Vite, PostCSS |
 | **Email** | EmailJS |
-| **Deployment** | GitHub Pages |
-
----
-
-## 📁 Folder Structure
-
-```
-Portfolio/
-├── public/
-│   └── desktop_pc/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── canvas/
-│   │   ├── hero.tsx
-│   │   ├── about.tsx
-│   │   ├── works.tsx
-│   │   └── contact.tsx
-│   ├── constants/
-│   │   └── index.ts
-│   └── app.tsx
-├── index.html
-└── vite.config.ts
-```
+| **Deployment** | Vercel |
 
 ---
 
 ## 🚀 Getting Started
 
 ```bash
-# Clone the repo
-git clone https://github.com/builtbysardor/Portfolio.git
-cd Portfolio
-
-# Install dependencies
+git clone https://github.com/builtbysardor/portfolio.git
+cd portfolio
 npm install --legacy-peer-deps
-
-# Start dev server
 npm run dev
 # → http://localhost:5173
-```
-
----
-
-## 📬 EmailJS Setup
-
-1. Go to [emailjs.com](https://emailjs.com) and create a free account
-2. Create an **Email Service** and **Email Template**
-3. Copy your `SERVICE_ID`, `TEMPLATE_ID`, `PUBLIC_KEY`
-4. Add them to `src/components/contact.tsx`
-
----
-
-## 📦 Deploy
-
-Every push to `main` auto-deploys via `.github/workflows/deploy.yml`:
-
-```bash
-git push origin main
-# → https://builtbysardor.github.io/Portfolio/
 ```
 
 ---
@@ -141,12 +88,14 @@ git push origin main
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit-915EFF?style=for-the-badge)](https://portfolio-mocha-seven-22.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-builtbysardor-181717?style=for-the-badge&logo=github)](https://github.com/builtbysardor)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aturdiyev303@gmail.com)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/builtbysardor)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/builtbysardor)
 
-**Built with ❤️ by Sardor · Samarkand, Uzbekistan 🇺🇿**
-
-⭐ *Star this repo if you liked it!*
+**Built by Sardor Buriyev · Samarkand, Uzbekistan 🇺🇿**
 
 </div>
 
-
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=100&section=footer" width="100%"/>
+</div>
