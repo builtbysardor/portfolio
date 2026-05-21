@@ -170,8 +170,8 @@ export const PROJECTS = [
       { name: "WebSockets", color: "pink-text-gradient" },
     ],
     image: project2,
-    source_code_link: "https://github.com/builtbysardor/sentinellog-real-time-threat",
-    live_site_link: "https://github.com/builtbysardor/sentinellog-real-time-threat",
+    source_code_link: "https://github.com/builtbysardor/sentinel-soc",
+    live_site_link: "https://github.com/builtbysardor/sentinel-soc",
   },
   {
     name: "InfraWatch",
@@ -183,8 +183,8 @@ export const PROJECTS = [
       { name: "Docker",     color: "pink-text-gradient" },
     ],
     image: project3,
-    source_code_link: "https://github.com/builtbysardor/infrawatch-monitoring-stack",
-    live_site_link: "https://github.com/builtbysardor/infrawatch-monitoring-stack",
+    source_code_link: "https://github.com/builtbysardor/infrawatch",
+    live_site_link: "https://github.com/builtbysardor/infrawatch",
   },
   {
     name: "PhishGuard AI",
@@ -209,8 +209,8 @@ export const PROJECTS = [
       { name: "FastAPI",    color: "pink-text-gradient" },
     ],
     image: project5,
-    source_code_link: "https://github.com/builtbysardor/Antivirus-pro-",
-    live_site_link: "https://github.com/builtbysardor/Antivirus-pro-",
+    source_code_link: "https://github.com/builtbysardor/antivirus-pro",
+    live_site_link: "https://github.com/builtbysardor/antivirus-pro",
   },
   {
     name: "KriptoVault",
@@ -222,8 +222,8 @@ export const PROJECTS = [
       { name: "Crypto",     color: "pink-text-gradient" },
     ],
     image: project6,
-    source_code_link: "https://github.com/builtbysardor/localizing-cipher-tool",
-    live_site_link: "https://github.com/builtbysardor/localizing-cipher-tool",
+    source_code_link: "https://github.com/builtbysardor/cipher-tool",
+    live_site_link: "https://github.com/builtbysardor/cipher-tool",
   },
 ] as const;
 
