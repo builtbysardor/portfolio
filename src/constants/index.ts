@@ -8,10 +8,8 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
@@ -54,7 +52,6 @@ export const TECHNOLOGIES = [
   { name: "React JS",     icon: reactjs },
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node JS",      icon: nodejs },
-  { name: "MongoDB",      icon: mongodb },
   { name: "Three JS",     icon: threejs },
   { name: "git",          icon: git },
   { name: "figma",        icon: figma },
@@ -83,7 +80,7 @@ export const EXPERIENCES = [
     iconBg: "#16213e",
     date: "Jun 2023 - 2026",
     points: [
-      "Built InfraWatch — a full Prometheus + Grafana + Docker monitoring stack.",
+      "Built Vantage — a full observability platform with Prometheus, Grafana, ML anomaly detection and Docker.",
       "Automated CI/CD pipelines and container orchestration workflows.",
       "Managed Linux servers, Nginx reverse proxies and SSL configurations.",
       "Created open-source DevOps tooling used by the community.",
@@ -96,7 +93,7 @@ export const EXPERIENCES = [
     iconBg: "#0f3460",
     date: "Sep 2023 - 2026",
     points: [
-      "Developed SentinelLog — real-time SOC dashboard detecting SSH brute-force, SQLi, DDoS attacks.",
+      "Developed Sentinel SOC — real-time SOC dashboard detecting SSH brute-force, SQLi, DDoS attacks.",
       "Built PhishGuard AI — 100% local ML-based phishing email detector with Naive Bayes + FastAPI.",
       "Created Antivirus Pro with VirusTotal & MetaDefender API integrations.",
       "Researching threat intelligence and automated IP-blocking systems.",
@@ -109,7 +106,7 @@ export const EXPERIENCES = [
     iconBg: "#1a1a2e",
     date: "2023 - 2026",
     points: [
-      "Maintaining 20+ open-source repositories on GitHub.",
+      "Maintaining open-source repositories on GitHub across DevOps, security and full-stack domains.",
       "Building developer tools, security utilities and full-stack templates.",
       "Contributing to community projects and writing technical documentation.",
       "Growing a developer brand focused on practical, production-ready software.",
@@ -117,51 +114,26 @@ export const EXPERIENCES = [
   },
 ] as const;
 
-// Testimonials — placeholder (update with real ones when available)
-export const TESTIMONIALS = [
-  {
-    testimonial:
-      "Sardor built our monitoring dashboard in record time. Clean code, great communication, real professional.",
-    name: "Alex K.",
-    designation: "CTO",
-    company: "TechStartup",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
-  },
-  {
-    testimonial:
-      "His cybersecurity tool caught threats we didn't even know existed. Impressive work for someone so young.",
-    name: "Maria S.",
-    designation: "Security Lead",
-    company: "DevOps Co.",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
-  },
-  {
-    testimonial:
-      "The full-stack app Sardor delivered was exactly what we needed — fast, scalable and well-documented.",
-    name: "James T.",
-    designation: "Founder",
-    company: "WebAgency",
-    image: "https://randomuser.me/api/portraits/men/55.jpg",
-  },
-] as const;
+// Testimonials
+export const TESTIMONIALS = [] as const;
 
 // Projects
 export const PROJECTS = [
   {
-    name: "Nexus Pro",
+    name: "AssetTrack",
     description:
-      "Real-time infrastructure monitoring dashboard. Visualizes CPU, RAM, disk, network, service status and alert management — all in one view.",
+      "Production-grade IT asset and HR lifecycle manager. Track hardware, employees, onboarding and offboarding workflows with LDAP provisioning, RBAC and full audit trail.",
     tags: [
       { name: "Next.js",    color: "blue-text-gradient" },
-      { name: "WebSockets", color: "green-text-gradient" },
+      { name: "PostgreSQL", color: "green-text-gradient" },
       { name: "TypeScript", color: "pink-text-gradient" },
     ],
     image: project1,
-    source_code_link: "https://github.com/builtbysardor/nexus-pro",
-    live_site_link: "https://nexus-pro-pi.vercel.app",
+    source_code_link: "https://github.com/builtbysardor/assettrack",
+    live_site_link: "https://github.com/builtbysardor/assettrack",
   },
   {
-    name: "SentinelLog v2",
+    name: "Sentinel SOC",
     description:
       "Real-time SOC dashboard with FastAPI + WebSockets. Detects SSH brute-force, SQL injection, DDoS and more. Auto-blocks IPs scoring 85+ threat.",
     tags: [
@@ -174,17 +146,17 @@ export const PROJECTS = [
     live_site_link: "https://sentinel-soc-tau.vercel.app",
   },
   {
-    name: "InfraWatch",
+    name: "Vantage",
     description:
-      "Production-ready monitoring stack with Prometheus + Grafana + Node Exporter + Docker Compose. One command to launch a full observability platform.",
+      "Open-source observability platform with real-time metrics, logs, alerts and ML anomaly detection. Built on Prometheus, Grafana, FastAPI and Next.js.",
     tags: [
       { name: "Prometheus", color: "blue-text-gradient" },
       { name: "Grafana",    color: "green-text-gradient" },
       { name: "Docker",     color: "pink-text-gradient" },
     ],
     image: project3,
-    source_code_link: "https://github.com/builtbysardor/infrawatch",
-    live_site_link: "https://github.com/builtbysardor/infrawatch",
+    source_code_link: "https://github.com/builtbysardor/vantage",
+    live_site_link: "https://github.com/builtbysardor/vantage",
   },
   {
     name: "PhishGuard AI",
@@ -196,7 +168,7 @@ export const PROJECTS = [
       { name: "ML",         color: "pink-text-gradient" },
     ],
     image: project4,
-    source_code_link: "https://github.com/builtbysardor",
+    source_code_link: "https://github.com/builtbysardor/phishing-detector",
     live_site_link: "https://phishing-detector-one-gold.vercel.app",
   },
   {
@@ -213,17 +185,17 @@ export const PROJECTS = [
     live_site_link: "https://github.com/builtbysardor/antivirus-pro",
   },
   {
-    name: "KriptoVault",
+    name: "CryptaVault",
     description:
-      "Localizing cipher tool — a secure, offline encryption/decryption vault supporting multiple classical and modern cipher algorithms.",
+      "Secure, offline encryption/decryption tool supporting Caesar, Vigenère and extended classical cipher algorithms with an interactive visual interface.",
     tags: [
-      { name: "Python",     color: "blue-text-gradient" },
-      { name: "FastAPI",    color: "green-text-gradient" },
-      { name: "Crypto",     color: "pink-text-gradient" },
+      { name: "JavaScript", color: "blue-text-gradient" },
+      { name: "Web Crypto", color: "green-text-gradient" },
+      { name: "Cipher",     color: "pink-text-gradient" },
     ],
     image: project6,
     source_code_link: "https://github.com/builtbysardor/cipher-tool",
-    live_site_link: "https://github.com/builtbysardor/cipher-tool",
+    live_site_link: "https://cipher-tool-two.vercel.app",
   },
 ] as const;
 
